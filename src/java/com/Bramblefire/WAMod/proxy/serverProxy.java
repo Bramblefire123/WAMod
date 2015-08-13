@@ -1,7 +1,7 @@
 package com.Bramblefire.WAMod.proxy;
 
 
-public class serverProxy {
+public class serverProxy extends commonProxy {
 }
 
 

@@ -1,5 +1,6 @@
 package com.Bramblefire.WAMod;
 
+import com.Bramblefire.WAMod.configuration.configHandler;
 import com.Bramblefire.WAMod.proxy.IProxy;
 import com.Bramblefire.WAMod.reference.Reference;
 import cpw.mods.fml.common.Mod;
@@ -20,7 +21,7 @@ public class WAMod {
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent preEvent)
     {
-
+        configHandler.init(preEvent.getSuggestedConfigurationFile());
     }
 
     @Mod.EventHandler

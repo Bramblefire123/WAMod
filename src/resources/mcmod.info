@@ -2,9 +2,9 @@
 {
     "modid": "WAMod",
     "name": "WA Support Mod",
-    "description": "A little mod to help with admin user interaction as well as providing basic tools to players. The intention is to mimic the Bukkit server features players are used to. Special thanks to Pahimar for the Lets Mod series.",
+    "description": "Client side mod intended to work with the Worlds Collide server to provide added functionality.",
     "version": "0.0.1",
-    "mcversion": "1.7.10",
+    "mcversion": "1.8",
     "url": "www.worldscolli.de",
     "updateUrl": "",
     "authorList": [ "Bramblefire" ],
